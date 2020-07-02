@@ -26,7 +26,7 @@ function buildTable(data) {
 
 function handleClick() {
     // finds value of where date values are stored
-    let data = d3.select("#datetime").property("value");
+    let date = d3.select("#datetime").property("value");
     //default filter
     let filteredData = tableData;
 
